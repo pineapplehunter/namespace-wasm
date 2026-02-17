@@ -63,7 +63,7 @@
                 '';
               };
               debug = pkgs.writeShellApplication {
-                name = "wrapped-wasm";
+                name = "wrapped-debug";
                 runtimeInputs = [ pkgs.bubblewrap ];
                 text = ''
                   bwrap \
